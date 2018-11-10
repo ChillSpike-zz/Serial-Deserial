@@ -11,5 +11,5 @@ classes contains several methods to write/read objects.
 
 Serialization is the process of taking an object and translating it into plaintext. This plaintext can then be encrypted or signed, as well as simply used the way it is. The reverse process is called deserialization, i.e. when the plaintext is converted back to an object.
 
-### Deserialization vulnerability in JAVA
+#### Deserialization vulnerability in JAVA
 Even when developers know that user input is not to be trusted, serialized objects are seen as something different and the security mindset is forgotten. In these scenarios, Insecure Deserialization is just another way of sending the payload which then affects an underlying vulnerability.
